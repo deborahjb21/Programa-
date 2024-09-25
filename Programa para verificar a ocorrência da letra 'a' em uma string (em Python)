@@ -1,0 +1,10 @@
+def count_a_in_string(string):
+    count = string.lower().count('a')
+    return count
+
+# Entrada da string
+texto = input("Digite uma string: ")
+
+# Verificação da ocorrência de 'a'
+contagem = count_a_in_string(texto)
+print(f"A letra 'a' aparece {contagem} vezes na string.")
